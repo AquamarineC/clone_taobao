@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style> 
+        * {
+            margin: 0;
+            padding: 0;
+            color: #424242;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+
+        .nav {
+            /* position: absolute; */
+            list-style: none;
+            border: 2px solid #424242;
+        
+            /* padding:2px;
+            border-radius: 25px;
+            background-color: tomato; */
+            
+        }
+
+        .nav::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .nav .item {
+            float: left;
+            margin:0 10px;
+            color: white;
+            height: 30px;
+            line-height: 30px;  
+            
+        }
+
+        
+        .nav .item a {
+            color: #f40;
+            font-weight: bold;
+            height: 30px;
+            display: inline-block;
+            padding: 0 6px;
+            border-radius: 15px;
+
+
+        }
+    
+        .nav .item a:hover {
+            color: white;
+            background-color: #f40;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    
+    <!-- 浮动元素产生了浮动流
+
+    所有产生了浮动流的元素都不会占据父元素的高度，且块级将元素看不到它们
+
+    产生了bfc的元素和文本类属性(inline)的元素以及文本都能看到浮动元素 
+    
+    
+    position: absolute; 跳到上层立交桥，让出之前的空间，相对于最近的定位父元素进行定位，
+    若没有则相对于body进行定位
+    
+    position: relative; 可以想象成灵魂出窍，不让出之前的空间，相对于自身出生位置进行定位
+
+    -->
+
+
+
+    <ul class="nav">
+        <li class="item">
+            <a href="#">天猫</a>
+        </li>
+        <li class="item">
+            <a href="#">聚划算</a>
+        </li>
+        <li class="item">
+            <a href="#">天猫超市</a>
+        </li>
+        
+    </ul>
+
+
+
+
+    
+
+hahaha
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
