@@ -1,124 +1,100 @@
 
 * {
-            margin: 0;
-            padding: 0; 
-        }
+    margin: 0;
+    padding: 0; 
+    list-style: none; 
+    color:#424242;   
+    font-family: Arial, Helvetica, sans-serif;     
+}
+
+.wrapper{ 
+    height: 30px;
+
+    border:1px solid black; 
+    background-color: blanchedalmond;
+
+}
+
+.topNav{
+    margin: 0 auto;
+    width: 1600px;
+    background-color: blanchedalmond;
+
+}
         
-        a {
-            text-decoration: none;
-        }
-
-        .nav {
-            /* position: absolute; */
-            list-style: none;
-            border: 2px solid #424242;
-        
-            /* padding:2px;
-            border-radius: 25px;
-            background-color: tomato; */
-            
-        }
-
-        .nav::after {
-            content: "";
-            display: block;
-            clear: both;
-        }
-
-        .nav .item {
-            float: left;
-            margin:0 10px;
-            color: white;
-            height: 30px;
-            line-height: 30px;  
-            
-        }
-
-
-
-
-
-        
-        
-        .nav .item a {
-            color: #f40;
-            font-weight: bold;
-            height: 30px;
-            display: inline-block;
-            padding: 0 6px;
-            border-radius: 15px;
-
-
-        }
+.topNav .topleft .topleftlist a{
+    text-decoration: none;
+    /* color: #f40;
+    font-weight: bold; */
     
-        .nav .item a:hover {
-            color: white;
-            background-color: #f40;
-        }
+}
 
-        .wrapper{
-        height: 30px; 
-        background-color: #123;
-    }
-    .content{
-        margin:0 auto;
-        width: 1200px;
-
-        height: 30px;
-        background-color: #0f0;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .alibaba{  
-        width: 320px;
-        height: 100px;
-        border: 2px solid black;
-    }
-
-    .alibaba:hover{
-        width: 400px;
-    }
-
+.topNav{
+    border:1px solid black;  
     
+}
+
+.topNav .topright, .topNav .topleft{
+    /* display: inline-block; */
+}
  
 
-    img{
-            float: left;
-        }
+.topNav .topleft{
+    float: left;  
+    margin: 0 10px;
+    border:1px solid black;  
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
 
-   .biaoti{
-    line-height: 20px;
-    margin-bottom: 8px;
-    font-size: 20px;
-    max-height: 40px;
-    overflow: hidden;
-    color: #333;
-   }
+}
 
-   .neirong{
-    line-height: 1.2em;
-    font-size: 8px; 
-    overflow: hidden;
-    color: #666;
-    height: 3.6em;
-   }
+.topNav .topleft::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
-    img{ 
-        display: block;
-        width: 100px;
-        height: 100px;
-    }
+        
+.topNav .toprightlist{ 
+    margin: 0 10px;
+    border:1px solid black;   
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    /* display: inline-block; */
+
+}
+
+.topNav .topright::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#info::before{
+    content: ""; 
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(./image/info.svg);
+    background-repeat: no-repeat; 
+   /* background-position: center; */
+   margin-bottom: 3px;
+   vertical-align: middle;
+}
+ 
+
+#info::after{
+    content: ""; 
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(./image/coffeedog.png);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat; 
+   /* background-position: center; */
+   margin-bottom: 3px;
+   vertical-align: middle;
+}
+ 
