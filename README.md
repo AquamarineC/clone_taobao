@@ -16,3 +16,6 @@ timeline
 The technology is from last century, effectively disappeared now. 
 My AI agent tells me don't do this homework; it is stupid and waste of time.
 As stubborn as I am, I am going to do it anyway, to learn, to close on the course, and also because I have all the time in the world.
+
+
+<img width="1050" height="902" alt="image" src="https://github.com/user-attachments/assets/c56dde7a-f3cf-4ef5-b132-7f2697fab498" />
