@@ -7,94 +7,29 @@
     font-family: Arial, Helvetica, sans-serif;     
 }
 
-.wrapper{ 
-    height: 30px;
-
-    border:1px solid black; 
-    background-color: blanchedalmond;
-
+.wrapper{
+    border: 1px solid black;
+    height:30px;
 }
 
-.topNav{
-    margin: 0 auto;
-    width: 1600px;
-    background-color: blanchedalmond;
-
-}
-        
-.topNav .topleft .topleftlist a{
-    text-decoration: none;
-    /* color: #f40;
-    font-weight: bold; */
-    
+.wrapper .topleft .topleftlist{
+    float: left;
 }
 
-.topNav{
-    border:1px solid black;  
-    
-}
 
-.topNav .topright, .topNav .topleft{
-    /* display: inline-block; */
-}
- 
-
-.topNav .topleft{
-    float: left;  
-    margin: 0 10px;
-    border:1px solid black;  
-    height: 30px;
-    line-height: 30px;
-    display: inline-block;
-
-}
-
-.topNav .topleft::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-        
-.topNav .toprightlist{ 
-    margin: 0 10px;
-    border:1px solid black;   
-    height: 30px;
-    line-height: 30px;
+.wrapper .topright .toprightlist{
     float: right;
-    /* display: inline-block; */
+}
+
+.topleft, .topright{
+    width:1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+    content:"";
+    display:block;
+    clear:both
 
 }
 
-.topNav .topright::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-#info::before{
-    content: ""; 
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-image: url(./image/info.svg);
-    background-repeat: no-repeat; 
-   /* background-position: center; */
-   margin-bottom: 3px;
-   vertical-align: middle;
-}
- 
-
-#info::after{
-    content: ""; 
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-image: url(./image/coffeedog.png);
-    background-size: 100% 100% ;
-    background-repeat: no-repeat; 
-   /* background-position: center; */
-   margin-bottom: 3px;
-   vertical-align: middle;
-}
  
