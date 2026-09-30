@@ -1,0 +1,45 @@
+
+
+
+#top-navigation-bar{ 
+    height:30px;
+    border: 1px solid black;
+
+
+    content:"";
+    display:block;
+    clear:both;
+ 
+    
+}
+
+#top-navigation-bar .topleft .topleftlist{
+    float: left;
+    margin: 0 10px;
+    line-height: 30px;
+ 
+}
+
+
+#top-navigation-bar .topright .toprightlist{
+    float: right;
+    margin: 0 10px;
+    line-height: 30px;
+
+ 
+}
+
+.topright{
+    width:1400px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+
+.topleft{
+    width:1400px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+ 
