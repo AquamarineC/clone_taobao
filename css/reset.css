@@ -47,7 +47,23 @@ body{
     float: right;
 }
 
+/* idea of component */
+
 .leayer{
     width: 1190px;
     margin: 0 auto;
+}
+
+/* now below is the idea of tailwindcss  */
+
+.c4{
+    color: #f40;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mr10{
+    margin-right: 10px;
 }

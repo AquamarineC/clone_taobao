@@ -1,7 +1,44 @@
 
+@import './reset.css';
+
+@font-face {
+    font-family: "icon";
+    src: url(../image/icon/star.svg);
+}
+
+.icon{
+    font-family: "icon" !important;
+    font-size: 16px;
+    font-style: normal;
+
+}
+
+#headMessage li{
+    float: left;
+    line-height: 35px;
+    padding: 0 6px; 
+}
+
+#headMessage a{
+    
+    color:#6c6c6c;
+
+}
+
+#headMessage a.login{
+    color: #f22e00;
+}
+
+/* 
+.ahdft::before{
+    display: inline-block;
+    background-image: url(../image/icon/star.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
-#top-navigation-bar{ 
+#headMessage{ 
     height:30px;
     border: 1px solid black;
 
@@ -13,7 +50,7 @@
     
 }
 
-#top-navigation-bar .topleft .topleftlist{
+#headMessage .topleft .topleftlist{
     float: left;
     margin: 0 10px;
     line-height: 30px;
@@ -21,7 +58,7 @@
 }
 
 
-#top-navigation-bar .topright .toprightlist{
+#headMessage .topright .toprightlist{
     float: right;
     margin: 0 10px;
     line-height: 30px;
@@ -42,4 +79,5 @@
     border: 1px solid black;
 
 }
- 
+  */
+
