@@ -17,17 +17,45 @@
     float: left;
     line-height: 35px;
     padding: 0 6px; 
+    font-size: 0; 
+    /* so cannot see the "0" in strong tag */
 }
 
 #headMessage a{
     
     color:#6c6c6c;
+    font-size: 16px;
 
+}
+
+#headMessage a:hover{
+    color: #f22e00;
 }
 
 #headMessage a.login{
     color: #f22e00;
 }
+
+#headMessage li strong{
+    font-size: 16px;
+    color: #f22e00;
+}
+
+#headMessage li.line{
+    color: #083dea;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+/* #iconic a::after{
+    display: inline-block;
+    content: "";
+    background-image: url(../image/icon/arrow-small-down.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+} */
 
 /* 
 .ahdft::before{
