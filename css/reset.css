@@ -14,7 +14,8 @@ a{
 
 img{
     border: none;
-    vertical-align: middle; 
+    vertical-align: middle;  
+    width: 100px;
 
 }
 
@@ -49,8 +50,8 @@ body{
 
 /* idea of component */
 
-.leayer{
-    width: 1190px;
+.layer{
+    width: 1500px;
     margin: 0 auto;
 }
 

@@ -24,7 +24,7 @@
 #headMessage a{
     
     color:#6c6c6c;
-    font-size: 16px;
+    font-size: 16px; 
 
 }
 
@@ -46,6 +46,66 @@
     font-size: 16px;
     margin: 0 5px;
 }
+
+
+
+
+/* 头部广告 */
+#headAd{
+    background-color: #f12f04;
+    border: 2px solid black;
+
+}
+
+#headAd .go{
+    display: block;
+    padding: 20px 10px 10px 20px
+
+}
+
+#headAd .go img{
+    width: 100px;
+    height: 80px;
+
+}
+
+#headAd div{
+    /* margin-top: 10px; */
+
+}
+
+#headAd ul{
+    /* float: right; */
+    /* border: 2px solid black; */
+    /* padding-top: 10px; */
+    padding-right: 10px;
+}
+
+#headAd ul li {   
+    float: left;
+    width: 209px;
+    /* border: 2px solid black; */
+    height:120px
+}
+
+#headAd li.item1{
+    background-color: aqua;
+
+}
+#headAd li.item2{
+    background-color: orange;
+
+}#headAd li.item3{
+    background-color: pink;
+
+}#headAd li.item4{
+    background-color: greenyellow;
+
+}#headAd li.item5{
+    background-color: violet;
+
+}
+
 
 /* #iconic a::after{
     display: inline-block;
