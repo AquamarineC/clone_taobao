@@ -59,7 +59,7 @@
 
 #headAd .go{
     display: block;
-    padding: 20px 10px 10px 20px
+    padding: 10px 5px 10px 40px;
 
 }
 
@@ -82,19 +82,30 @@
 }
 
 #headAd ul li {   
+    border-radius: 30px;
     float: left;
     width: 209px;
     /* border: 2px solid black; */
     height:75px;
     margin-right: 10px;
     
-    padding: 100px;
-    /* padding: 12px 15px 0 15px; */
+    /* padding: 100px; */
+    box-sizing: border-box;
+    padding: 12px 15px 0 15px;
+}
+
+#headAd ul li:hover{
+    padding: 10px;
 }
 
 #headAd ul li a{
     color: rgb(72, 125, 217);
+    /* display: block; */ 
 
+}
+
+#headAd ul li a#text{
+    display: block;
 }
 
 #headAd ul li p{
@@ -123,7 +134,7 @@
 
 #headAd li.item1{
     background-color: aqua;
-    padding: 10px; 
+    margin: 10px; 
 
 }
 #headAd li.item2{
@@ -132,7 +143,7 @@
 
 }#headAd li.item3{
     background-color: pink;
-    padding: 10px;
+    margin: 10px;
 
 
 }#headAd li.item4{
@@ -143,71 +154,45 @@
 
 }#headAd li.item5{
     background-color: violet;
-    padding: 10px;
+    margin: 10px;
 
 
 }
 
 
-/* #iconic a::after{
-    display: inline-block;
-    content: "";
-    background-image: url(../image/icon/arrow-small-down.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 16px;
-    height: 16px;
-} */
+/* top-search */
 
-/* 
-.ahdft::before{
-    display: inline-block;
-    background-image: url(../image/icon/star.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-#headMessage{ 
-    height:30px;
-    border: 1px solid black;
-
-
-    content:"";
-    display:block;
-    clear:both;
- 
+#headSearch{
+    margin-top: 40spx;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     
+
 }
 
-#headMessage .topleft .topleftlist{
+#headSearch .logo{
+    width: 100px;
+    height: 100px;
+    background-color: #f22e00;
     float: left;
-    margin: 0 10px;
-    line-height: 30px;
+
+}
+
+#headSearch .searchbar{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+
+}
+
+#headSearch .qrcode{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+
+}
+
  
-}
-
-
-#headMessage .topright .toprightlist{
-    float: right;
-    margin: 0 10px;
-    line-height: 30px;
-
- 
-}
-
-.topright{
-    width:1400px;
-    margin: 0 auto;
-    border: 1px solid black;
-
-}
-
-.topleft{
-    width:1400px;
-    margin: 0 auto;
-    border: 1px solid black;
-
-}
-  */
-
