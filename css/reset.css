@@ -90,7 +90,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
-    vertical-align: -5px;
+    vertical-align: middle;
     width: 20px;
     height: 20px;
 }
@@ -101,9 +101,9 @@ body{
     background-image: url(../image/icon/arrow-small-down.svg);
 
     margin-left: 5px;
-    vertical-align: -2px;
+    vertical-align: middle;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
 }
