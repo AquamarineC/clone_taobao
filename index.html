@@ -28,6 +28,14 @@
     当设置 position: absolute或float： left/right
     display自动设置 inline-block，从而可以设置宽高
 
+    To solve margin collapsing:
+    Trigger a BFC on the parent	
+    1. overflow: hidden (or auto)	 
+    2. display: flow-root	  
+    3. float: left + clearfix	Ancient method.
+    4. display: inline-block    Works but has side effects.
+
+
 
     -->
 
@@ -291,9 +299,15 @@
                 <div class="img">
                     <a href="#"><img src="./image/calm-04-sailboat.png" alt=""></a>
                 </div>
+
+                <button class="leftBtn"></button>
+                <button class="rightBtn"></button>
+                <div class="circle">
+                    <span class="active"></span><span></span><span></span><span></span><span></span>
+                </div>
             </div>
             <div class="ad fr">
-
+                <a href="#"><img src="./image/calm-03-people-shore.png" alt=""></a>
             </div>
         </div>
         <!-- 图片2容器 -->

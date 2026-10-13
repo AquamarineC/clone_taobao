@@ -410,10 +410,82 @@
 }
 
  /* 图片1容器 */
-.img1Box{
+.firstLeft .img1Box{
     width: 690px;
     height: 282px;
     background: #eee ;
+    margin-top: 10px;
+}
+
+.img1Box .pic{
+    position: relative;
+}
+
+.img1Box .pic button{
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+
+    display: none;
+}
+
+.img1Box .pic:hover button{
+    display: block;
+}
+
+.img1Box .pic button.leftBtn{  
+    border-radius: 0 15px 15px 0;
+}
+
+.img1Box .pic button.rightBtn{  
+    right: 0;
+
+    border-radius: 15px 0 0 15px;
+}
+
+.img1Box .pic .circle{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -35px;
+    border-radius: 10px; 
+    font-size: 0;
+
+    background-color: rgba(255,255,255,0.3);
+}
+
+.img1Box .pic .circle span{
+    display: inline-block;
+    width: 8px;
+    height: 8px; 
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.img1Box .pic .circle span.active{
+    background-color: red;
+}
+
+.img1Box .pic img{
+    width: 520px;
+    position: relative;
+    height: 282px;
+}
+
+.img1Box .ad  img{
+    width: 160px;
+    height: 282px;
+
 }
 
  /* 图片2容器 */
@@ -423,6 +495,8 @@
     background: #ccc;
     padding-top: 10px;
 }
+
+
 
 
  /* 右边的内容 */
