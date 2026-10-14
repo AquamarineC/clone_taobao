@@ -585,15 +585,22 @@
 }
 
 .img2Box .pic img{
-    width: 520px;
+    width: 260px;
+    height: 200px;
+    background-color: white;
     position: relative;
-    height: 220px;
 }
 
 .img2Box .ad  img{
     width: 160px;
-    height: 230px;
+    height: 200px;
+    margin-top: 3px;
 
+}
+
+.img2Box .ad .title{
+    height: 17px;
+    line-height: 17px;
 }
 
 
