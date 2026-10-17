@@ -711,7 +711,7 @@
 /* 右边的内容 */
 
 .firstRight{
-    width: 610px;
+    width: 600px;
     margin-top: 10px;
 }
 
@@ -783,7 +783,7 @@
 
 
 .firstRight .tip-off{
-    width: 610px;
+    width: 600px;
     display: block;
     height: 26px;
     line-height: 26px;
@@ -795,4 +795,52 @@
     vertical-align: middle;
     color: #f40;
 
+}
+
+
+/* 公告区 */
+
+.firstRight .notice{
+    height: 108px;
+    background-color: #fff; 
+}
+
+.firstRight .notice .title{
+    text-align: center;
+    font-size: 0;
+}
+
+.firstRight .notice .title li{
+    display: inline-block;
+    font-size: 12px;
+    line-height:20px;
+    padding: 0 4px;
+    margin: 0 10px;
+}
+
+.firstRight .notice .title a:hover{
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid #f40;
+}
+
+.firstRight .notice .content{
+    margin: 0 12px;
+    padding-top: 10px;
+}
+
+.firstRight .notice .content li{
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    width: 288px;
+    float: left;
+}
+
+.firstRight .notice .content a:hover{
+    color: #ff5000;
+}
+
+.firstRight .notice .content li.item1{
+    width: 100%;
 }
