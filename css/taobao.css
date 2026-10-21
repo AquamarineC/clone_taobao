@@ -959,7 +959,7 @@
 }
 
 .goods .list li{
-    width: 240px;
+    width: 240px; 
     display: inline-block;
 }
 
@@ -1008,12 +1008,70 @@
     width: 22px;
     height: 22px; 
 }
-
-.goods .list li img{}
+ 
 
 .shopping .list li .text{
     height: 44px;
     line-height: 22px;
     font-size: 14px;
     overflow: hidden;
+}
+
+.goods.shopping .list li img{
+    margin: 0 2px 24px 2px; 
+}
+
+
+
+/* 右侧固定定位导航 */
+
+#tool{
+    width: 50px;
+    height: 350px;
+
+    position: fixed;
+    top: 200px;
+    right: 150px;
+}
+
+#tool span img{
+    width:  52px;
+
+}
+
+#tool .btn{
+    height: 350px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#tool a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+
+    word-break: keep-all;
+    position: relative;
+}
+
+#tool a:after{
+    content: '';
+    border-bottom: 1px solid #a62f2f;
+    width: 34px;
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+
+}
+
+#tool a.item6{
+    line-height: 40px;
+}
+
+#tool a:hover,#tool a.active{
+    background-image: linear-gradient(135deg, #ff9000, #ff5000);
+    color: #fff;
+    font-weight: bold;
 }
